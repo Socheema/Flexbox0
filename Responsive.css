@@ -1,0 +1,52 @@
+@media screen and (max-width: 870px){
+  
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    header img{
+        max-width: 400px;
+    }
+}
+    
+
+ @media screen and (max-width: 643px){
+
+    .menu{
+        display: flex;
+        flex-direction: column;
+    }
+
+    header{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header small{
+        color: rgb(245, 244, 244);
+    }
+
+    nav{
+        display: flex;
+        flex-direction: column;
+        height: 80px;
+    }
+
+
+}  
+
+
+ @media screen and (max-width: 450px){
+    
+     nav{
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+    }
+
+    header img{
+        max-width: 250px;
+        display: block;
+    }
+} 
